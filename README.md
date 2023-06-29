@@ -4,7 +4,7 @@
 - ASP.NET Core 6.0: Framework para desenvolvimento da Microsoft.
 - Repository Pattern
 - CQRS
-- SQLLite
+- SQLite
 
 # Docker
 - docker-compose up --build
