@@ -5,6 +5,11 @@
 - Repository Pattern
 - CQRS
 - SQLite
+- XUnit
+- MediatR
+- Swagger UI: Documentação para a API.
+- Dapper
+- Docker & Docker Compose
 
 # Docker
 - docker-compose up --build
