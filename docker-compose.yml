@@ -1,0 +1,24 @@
+version: '3.9'
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+
+  questao5-webapi:
+    image: ${DOCKER_REGISTRY-}questao5-webapi
+    container_name: questao5-webapi
+    restart: always
+    build:
+      context: .
+      dockerfile: Questao5/Dockerfile
+    expose:
+      - 5072
+    ports:
+      - 5072:5072
+    networks:
+      - app-network
+
+    
+  
